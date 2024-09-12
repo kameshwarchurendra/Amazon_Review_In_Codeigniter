@@ -316,7 +316,7 @@ public function upload_multiple_files($in_title, $file_location, $file_type='*',
 
 //=======================================API Call=========================================//
 public function AmazonReview(){
-	$apiKey  = '6d6570bef88529dea72c7a190da24b92';
+	$apiKey  = '********';
 	$asin    = 'B0BHX83YLH';//'B0CMF3QY5J';
 	$country = 'in';//'uk';
 	$tld     = 'in';//'com';
@@ -357,7 +357,7 @@ public function AmazonReview(){
 public function AmazonReviewEAN($ean_no){
 	# set up the request parameters
 	$queryString = http_build_query([
-		'api_key' => '0E2A28134EE54107A39C180D94C618B8',//DDCC35CBA3E84878B6917C456C64A269 //'68E17192093E41CE9718C65BFCBF0F80',
+		'api_key' => '*****',//****** */ //'***********',
 		'type' => 'reviews',             // Change to the appropriate Amazon domain if needed
 		'amazon_domain' => 'amazon.co.uk',  // 'amazon_domain' => 'amazon.com',    
 		'gtin' => $ean_no,// '802535436121',//'8714789260532',        // 'asin' => 'B00891PV0G', all_critical
